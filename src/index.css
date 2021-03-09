@@ -103,6 +103,9 @@ section {
 @media (max-width: 600px) {
   .App {
     background-image: url("./assets/cloudy-mobile.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -110,17 +113,23 @@ section {
   
   .App.warm {
     background-image: url('./assets/warm-mobile.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
   
   .App.cold {
     background-image: url('./assets/cold-mobile.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
   }
