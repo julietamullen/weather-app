@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
-  background-repeat: no-repeat;
 }
 
 .App.warm {
@@ -21,7 +20,6 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
-  background-repeat: no-repeat;
 }
 
 .App.cold {
@@ -29,7 +27,6 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
-  background-repeat: no-repeat;
 }
 main {
   height: 100vh;
@@ -102,3 +99,29 @@ section {
   color: #FFF;
   text-shadow: 2px 2px 2px rgba(77, 77, 77, 0.75);
 }
+
+@media (max-width: 600px) {
+  .App {
+    background-image: url("./assets/cloudy-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+  }
+  
+  .App.warm {
+    background-image: url('./assets/warm-mobile.jpg');
+    background-size: cover;
+    background-position: center center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+  }
+  
+  .App.cold {
+    background-image: url('./assets/cold-mobile.jpg');
+    background-size: cover;
+    background-position: center center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+  }
+  }
