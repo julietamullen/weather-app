@@ -9,21 +9,21 @@ body {
 }
 
 .App {
-  background-image: url("./assets/cloudy.jpg");
+  background-image: url("./cloudy.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
 }
 
 .App.warm {
-  background-image: url('./assets/warm.jpg');
+  background-image: url('./warm.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
 }
 
 .App.cold {
-  background-image: url('./assets/cold.jpg');
+  background-image: url('./cold.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
@@ -102,14 +102,19 @@ section {
 
 @media (max-width: 600px) {
   .App {
-    background-image: url("./assets/cloudy-mobile.jpg");
+    background-image: url("./cloudy-mobile.jpg");
+
   }
   
   .App.warm {
-    background-image: url('./assets/warm-mobile.jpg');
+    background-image: url('./warm-mobile.jpg');
+    background-size: 100% 100%;
+    background-attachment: scroll;
   }
   
   .App.cold {
-    background-image: url('./assets/cold-mobile.jpg');
+    background-image: url('./cold-mobile.jpg');
+    background-size: 100% 100%;
+    background-attachment: scroll;
   }
   }
