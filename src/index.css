@@ -103,27 +103,24 @@ section {
 @media (max-width: 600px) {
   .App {
     background-image: url("./assets/cloudy-mobile.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
-    transition: 0.4s ease-out;
     background-repeat: no-repeat;
   }
   
   .App.warm {
     background-image: url('./assets/warm-mobile.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
-    transition: 0.4s ease-out;
     background-repeat: no-repeat;
-    background-attachment: scroll
+    background-attachment: scroll;
   }
   
   .App.cold {
     background-image: url('./assets/cold-mobile.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
-    transition: 0.4s ease-out;
     background-repeat: no-repeat;
-    background-attachment: scroll
+    background-attachment: scroll;
   }
   }
