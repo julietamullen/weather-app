@@ -102,7 +102,7 @@ section {
 
 @media (max-width: 600px) {
   .App.cold {
-    background-image: url('./assets/cold-mobile.jpg');
+    background-color: green;
     background-size: cover;
     background-position: bottom;
     transition: 0.4s ease-out;
