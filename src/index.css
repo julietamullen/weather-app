@@ -103,10 +103,9 @@ section {
 @media (max-width: 600px) {
   .App.cold {
     background-image: url('./assets/cold-mobile.jpg');
-    background-position: center center;
-    background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: bottom;
     transition: 0.4s ease-out;
+    background-repeat: no-repeat;
   }
   }
